@@ -78,6 +78,17 @@ I was going to make my website and thought if I did it as a template, I could sh
     - with `--safe` parameter you can make sure no 3rd party plugin added. (for Github pages development)
 1. Your page will be up and running at the `0.0.0.0:4000/` address.
 
+### Where stuff is
+
+- Blog text - _posts
+- Blog images - assets/img/posts
+- Project text - _data/content/projects
+- Project images - assets/img/posts
+- Links - tabs/links.md
+- About - _data/lang/en.yml
+- Page generators - _includes/util
+- Page layouts - _layouts
+
 ### Documentation
 
 I know, I know, documents are never enough since I would rather write some code than write documents. But I will try to make time for documentation and tutorials.

@@ -16,13 +16,8 @@
 
 {%- assign website_info_text = site.data.lang[lng].auto_content.text |
   replace: "Jekyll", "[Jekyll](https://jekyllrb.com/)" |
-  replace: "GitHub Pages", "[GitHub Pages](https://pages.github.com/)" |
-  replace: site.data.conf.main.brand_replace, "[Mr. Green](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)"
+  replace: "GitHub Pages", "[GitHub Pages](https://pages.github.com/)"
 %}
-
-{%- capture website_info_text -%}
-{{ website_info_text }} [{{site.data.lang[lng].auto_content.more_info}}]({{ site.baseurl }}{{ out_lng_page.url }})
-{%- endcapture -%}
 
 {%- capture website_greeting_text -%}
 ### {{ site.data.lang[lng].auto_content.greeting }}
