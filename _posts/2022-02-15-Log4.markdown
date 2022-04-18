@@ -1,26 +1,26 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Mr_Green_Jekyll_Theme
-title: Mr. Green Jekyll Theme
+lng_pair: id_log4
+title: Log 4 - Artificial Intelligence in Pigs
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
-author: Mr. Green's Workshop
+#author: ""
 # multiple category is not supported
-category: jekyll
+category: auto generated
 # multiple tag entries are possible
-tags: [jekyll, new feature]
+tags: [log4]
 # thumbnail image for post
-img: ":mock1.jpg"
+img: ":log4_thumb.jpg"
 # disable comments on this page
-#comments_disable: true
+comments_disable: true
 
 # publish date
-date: 2022-03-03 12:32:10 +0900
+date: 2021-08-10 11:32:53 +0900
 
 # seo
 # if not specified, date will be used.
-#meta_modify_date: 2022-03-03 12:32:10 +0900
+#meta_modify_date: 2021-08-10 11:32:53 +0900
 # check the meta_common_description in _data/lang/[language].yml
 #meta_description: ""
 
@@ -37,6 +37,24 @@ date: 2022-03-03 12:32:10 +0900
 #published: false
 ---
 
-{%- capture readme_file -%}{%- include_relative _README.md -%}{%- endcapture -%}
-{%- assign tmp_content = readme_file | split: "<!-- readme -->" -%}
-{{tmp_content[1]}}
+{%- include util/auto-content-generator.liquid -%}
+
+<!-- outline-start -->
+
+This is the one sentance summary of log 4
+
+<!-- outline-end -->
+
+### Artificial Intelligence in Pigs
+
+Summary of log 4
+
+Blah blah
+
+#### Pictures
+
+![Picture of log 4](/assets/img/posts/log4_thumb.jpg)
+
+#### Links
+
+[Link to Log 4](http://google.com)
