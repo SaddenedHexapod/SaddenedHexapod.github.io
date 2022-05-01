@@ -172,11 +172,11 @@ meta_common_description: $site_brand.
 
 auto_content:
   title: Sample post (auto generated)
-  greeting: Welcome to SaddenedHexapod's L2k page!
-  text: What cool stuff.
+  greeting: About Me
+  auto_generated_text: Hi! I'm Victoria Macumber,
+  text: but I like to go by SaddenedHexapod online. I'm interested in biology, medicine, and engineering. My dad works for Terumo BCT, and works on machines that are used in hospitals. I want to follow in his footsteps and I find this field very intresting. Although college is many years away, for now I think I want to major in Biomedical Engineering. I love learning about cool programs and algorithms that can help people be healthy. Although I am not sure how, I also want to continue learning Sign Language (ASL) and maybe become an interpreter when I get older! 
   #more_info: Learn More.
-  auto_generated_text: This is my description.
-
+  
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
   side_nav_setting_button_tooltip: &cookie_settings Cookie settings
